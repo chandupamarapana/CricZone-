@@ -1,0 +1,28 @@
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.site-info h4 {
+  margin-bottom: 10px;
+}
+
+.site-info img {
+  width: 40px; /* Adjust the logo width as needed */
+  height: 40px; /* Adjust the logo height as needed */
+  margin-right: 10px;
+}
+
+/* Optional: Add more styles as needed */

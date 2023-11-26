@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+overflow: hidden;
+text-decoration: none;
+}
+body,
+html{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+body{
+    background-size: cover;
+    background-color: rgb(116, 116, 116);
+    background-repeat: no-repeat;
+}
+.center{
+    padding:50px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    height: 95vh;
+    text-align: center;
+    border-radius: 0px;
+    margin: auto;
+
+    
+
+}
+.center .avatar img{
+    border-radius: 15%;
+    height: 155px;
+    width: 145px;
+    margin-top: 10%;
+    object-fit: cover;
+    object-position: 0 0;
+
+}
+.contents{
+    padding: -7px;
+
+}
+h1{
+    color: black(88, 88, 88);
+
+}
+.contents h2{
+    font-weight: 400;
+}
+.contents h3{
+    margin-top: 20px;
+}

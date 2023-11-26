@@ -1,0 +1,231 @@
+#sitemap {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(0%, 0%);
+    font-size: 1.6em;
+  }
+  #sitemap ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #sitemap ul li {
+    margin-right: 10px;
+  }
+  
+  .home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -114%);
+  }
+  .home:hover svg circle {
+    stroke: rgb(0, 0, 0); /* Change the stroke color */
+    fill: rgba(221, 226, 228, 0.945); /* Change the fill color */
+  }
+  
+  .quiz {
+    
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(59.5%, 20%);
+  }
+  .quiz:hover svg rect {
+    stroke: rgb(0, 0, 0); 
+    fill: rgba(221, 226, 228, 0.945); 
+  }
+  
+  .content-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-335%, 20%);
+    margin-left: 100px;
+  }
+  .content-page:hover svg rect {
+    stroke: rgb(0, 0, 0); 
+    fill: rgba(221, 226, 228, 0.945); 
+  }
+  
+  .buy-products {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-305%, 20%);
+    margin-left: 200px;
+  }
+  .buy-products:hover svg rect {
+    stroke: rgb(0, 0, 0); 
+    fill: rgba(221, 226, 228, 0.945); 
+  }
+  
+  .query-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-275%, 20%);
+    margin-left: 300px;
+  }
+  .query-form:hover svg rect {
+    stroke: rgb(0, 0, 0); 
+    fill: rgba(221, 226, 228, 0.945); 
+  }
+  .student-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-165%, 20%);
+    margin-left: 400px;
+  }
+  .student-details:hover svg rect {
+    stroke: rgb(0, 0, 0); 
+    fill: rgba(221, 226, 228, 0.945); 
+  }
+  .sitemap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-130%, 20%);
+    margin-left: 500px;
+  }
+  .sitemap:hover svg rect {
+    stroke: rgb(0, 0, 0); 
+    fill: rgba(221, 226, 228, 0.945); 
+  }
+  .gallery {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, 20%);
+    margin-left: 600px;
+  }
+  .gallery:hover svg rect {
+    stroke: rgb(0, 0, 0); 
+    fill: rgba(221, 226, 228, 0.945); 
+  }
+  .line {
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2px;
+  }
+  #studentDetails {
+              position: fixed;
+              bottom: 10px;
+              left: 10px;
+              color: rgb(255, 255, 255);
+              font-size: 14px;
+              z-index: 2;
+          }
+          h1 {text-align: center;}     
+          
+           
+           body, html {
+            overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+          }
+          
+          
+          
+          .bg-image {
+            /* The image used */
+            background-image: url("360.jpg");
+          
+            /* Add the blur effect */
+            filter: blur(8px);
+            
+          
+            /* Full height */
+            height: 100%;
+          
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;   
+           /* Fix the background image */
+            background-attachment: fixed;
+          }
+
+
+          svg {
+            height: 100%;
+            
+          }
+
+
+          
+          .line2 {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(5%, -5%);
+          }
+          .line3 {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(100%, -5%);
+          }
+          .line4 {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(5%, -5%);
+          }
+          .line5 {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(38%, -5%);
+          }
+          .line6 {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(70%, -5%);
+          }
+          .line7 {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(102%, -5%);
+          }
+          .line8 {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(135%, -5%);
+          }
+          .line9 {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(168%, -5%);
+          }
+          .line10 {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(200%, -5%);
+          }
+          .line11 {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(102%, -35%);
+          }
+
+          
+          
+          
+
+       
+    
+    
+    
+    
+    

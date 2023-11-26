@@ -1,0 +1,165 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+
+
+h1{
+    font-size: 50px;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    left: 750px;
+}
+
+/* styling the introduction part */
+
+.container .additionalInfo .intro{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.intro .leftCol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.intro .rightCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    width: 105%;
+    padding-left: 3%;
+    top: 100px;
+}
+
+.intro .introImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 20%;
+    position: relative;
+    left: 5%;
+    top: 15px;
+}
+
+/* Styling the types of frachise part */
+
+.container .additionalInfo .franchiseTypes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.franchiseTypes .rightCol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%; 
+}
+
+.franchiseTypes .leftCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150%;
+    padding-right: 4%;
+}
+
+.franchiseTypes .partImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+/* impact styles */
+
+.container .additionalInfo .impact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.impact .leftCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%; 
+}
+
+.impact .leftCol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 95%;
+}
+
+.impact .partImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.impactContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+ol{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* go to top button */
+
+.goToTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6%;
+    background-color: #4d4b4b;
+    padding: 10px 10px;
+    font-size: 15pt;
+    margin: 7% 0 5% 5%;
+}
+
+.goToTop a{
+    font-family: 'Helvetica Neue', sans-serif;
+    text-decoration:none;
+    color: #ffffff;
+}
+
+.view{
+    text-align:center;
+    padding:8px;
+    margin-top: 5%;
+}
+
+
+
+

@@ -1,0 +1,149 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/* styles for the body of the web page */
+body{
+    background-color:grey;
+    background-image: url("cricket.jpg");
+    background-size: 100%;
+    background-position: 0px 0px 0px 0px;
+
+
+
+}
+/* styles for main container */
+.app{
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10.3px;
+    /* padding: 31px;
+    padding-top: 10px; */
+    box-shadow: 0 2px -1px 0 rgba(0, 0, 0, 0.943), 
+    0 -10px 56px 0 rgba(0, 0, 0, 0.858);
+    
+    
+
+
+}
+.app h1{
+    color: black;
+    font-size: 41px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 14px;
+    text-align: center;
+
+}
+.Start-screen, .score-container{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+#start-button, #restart{
+    font-size: 1.5em;
+    padding: 0.5em 1.7em;
+    border-radius: 0.2em;
+    box-shadow:0 15px 25px rgba(0,0,0,0.4) ;
+
+}
+#restart{
+    margin-top: 0.7em;
+
+}
+/* styles for display container */
+#display-container{
+    background-color: white;
+    padding: 1.5em 1.0em;
+    width: 90%;
+    max-width: 600px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 65%;
+    border-radius: 0.8em;
+
+
+}
+.header{
+    margin: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.5em;
+    border-bottom: 0.1em solid black;
+
+}
+.timer-div{
+    background-color:white;
+    width: 7.5em;
+    border-radius: 6.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 1.5em;
+}
+.question{
+    margin-bottom: 1.20em;
+    font-weight: 500;
+}
+.option-div{
+    font-size: 0.8em;
+    width: 80%;
+    padding: 0.8em;
+    margin: 0.3em 0;
+    text-align: left;
+    outline: black;
+    background: transparent;
+    border: 0.8px solid #c0bfd2 ;
+    
+}
+.option-div:disabled{
+    color: #000;
+    cursor: not-allowed;
+}
+#next-button{
+    font-size: 0.8em;
+    margin-top: 1.2em;
+    background-color: #4d4b4b;
+    color: #fff;
+    padding: 0.5em 1.5em;
+    border-radius: 0.2em;
+    float: right;
+    box-shadow: 0px 18px 35px rgba(0,0,0,0.4);
+}
+.hide{
+    display: none;
+
+}
+.incorrect {
+    background-color: #ff0015;
+    color: #d32f2f;
+    border-color: #d32f2f;
+}
+.correct {
+    background-color: #00ff4c;
+    color: #689f38;
+    border-color: #689f38;
+}
+#player-score{
+    font-size: 2.0em;
+    color: black;
+}
+

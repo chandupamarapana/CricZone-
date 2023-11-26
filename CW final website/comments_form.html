@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link rel ="stylesheet" href="comments.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+
+    <div id=navbar class="Navbar">
+        <a href="mainpage.html">
+            <img src="images/logo.png" alt="Logo">
+        </a>
+       <div id="navlist">
+        
+            <li><a href="mainpage.html">HOME</a></li>
+            <li><a href="comments_form.html">COMMENTS</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a  href="Sadesh'squiz.html">QUIZ</a></li>
+            <li><a  href="Sitemap.html">SITE MAP</a></li>
+            <li><a href="Gallery.html">GALLERY</a></li>
+            <li><a  href="studentdetails.html">ABOUT US</a></li>
+        
+       </div>
+    </div>
+
+    <!-- Main content section  -->
+    <div class="container" id="container" style="z-index: 2 ;">
+        <!-- Comment form -->
+        <form id="myForm" action="mailto:chandupa.20220791@iit.ac.lk" method="post" >
+            <!-- left column with input fields and radio buttons. -->
+            <div class="left" style="background-color:rgb(212, 211, 220); ">
+            
+                  <p style="font-size:17px">Write us</p><br>
+                  
+                  <input id="name" type="text" name="name" placeholder="Name"><br><br><br>
+                  <input id="mail" type="email" name="mail" placeholder="E-Mail" ><br><br>
+                  
+                  <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Select what you think about the website </b></p><br>
+                  
+                  <input id="mediocre" type="radio" name="subject" value="mediocre" >
+                  <label for="mediocre">Mediocre</label><br>	  
+                  <input id="Average" type="radio" name="subject" value="Average">
+                  <label for="Average">Average</label><br>	  
+                  <input id="excellent" type="radio" name="subject" value="excellent">
+                  <label for="excellent">Excellent</label><br><br>
+                  
+                  <textarea style="resize:none; " id="query" name="query" placeholder="Enter your feedback  here" cols="50" rows="7"></textarea><br><br><br>
+                  <input type="button" class="button" value="View query" onclick="check(myForm);">
+              
+            </div>
+        </form>
+        <!-- Right column with the logo  -->
+        <div class="right">
+            <img src="images/website_logo.png" style=" width: 100% ; " alt="logo"> 
+        </div>
+    </div>	
+    <!-- summary Section -->
+    <div class="container-s">
+            <div id="summary">
+                <!-- Left column with the form summary  -->
+             <img src="images/website_logo.png" style="width:50%; height: 500px;" class="left" alt="logo"> 
+             <div class="left">
+                <h2>Is this what you wanted to send?</h2>
+                <br><br<br>
+                 <p id="names"></p>
+                 <p id="mails"></p>
+                 <p id="subjects"></p>
+                 <p id="querys"></p><br>
+                 <input  type="button" value="Edit" class="button" onclick="edit()" style="margin-right:20px">
+                 <input  type="submit" value="Send" class="button" form="myForm" >
+             </div>
+             
+            </div>
+    </div>
+
+    <!-- JavaScript file  -->
+    <script src="comments_form.js"></script>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="site-info">
+                <h4>cricZONE<img src="images/logo.png" alt="Logo"></h4>
+                <p>Welcome to cricZONE, your ultimate destination for all things cricket. Explore the History, rules, player stats, and much more. Whether you are a passionate cricket fan or a casual follower, Cricket Hub offers a comprehensive cricket experience like never before.</p>
+            </div>
+            <div class="contact-info">
+                <br>
+                <h4>Contact Us</h4>
+                <p>Email: cricZone@gmail.com</p>
+                <p>Phone: +94 70 357 8889</p>
+                <a href="pageEditor.html">
+                    PAGE EDITOR
+                    </a>
+            
+                
+            </div>
+           
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 cricZONE. All Rights Reserved. |</p>
+        </div>
+    </footer>
+</body>
+</html>
+    

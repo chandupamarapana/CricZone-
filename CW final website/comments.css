@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width:100%;
+    height: 125vh;
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/cricket.jpg") ;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
+
+.logo{
+    width: 120px;
+    cursor: pointer;  
+}
+
+
+/* These styles were used for the navigation bar and the background of the page. */
+
+.container-s{
+    margin:auto;
+    padding-top:10%;
+}
+
+#summary{
+width: 65%;
+margin:auto;     
+background-color:white;
+display: none;
+border-radius:10px;
+overflow:hidden;
+}
+
+
+
+.container{
+display: block;
+margin:auto;
+padding-left:20%;
+padding-top:10%;    
+}
+
+.left{
+width: 35%;
+height: 480px;
+float: left;
+padding: 20px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+
+
+}
+.right{
+ float: left;
+ padding: 20px;
+ border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+ width: 476px;
+ background-color: #fff;
+ 
+ 
+}
+.right img{
+    /* height: 460px;
+    width: 450px; */
+    /* object-fit: cover; */
+    /* object-position: 10% 0%; */
+    /* margin: 8px 20px 8px 40px;
+    padding: 20px 40px 10px 0px; */
+    width: 100%;
+    height: 100%;
+    
+}
+
+#names{
+font-family:verdana;
+}
+
+#mails{
+font-family:verdana;
+}
+
+#subjects{
+font-family:verdana;
+}
+
+#querys{
+font-family:verdana;
+}
+.button{
+background-color: #4d4b4b; 
+border:none;
+color: rgb(255, 255, 255);
+padding: 5px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+transition-duration: 0.4s;
+border-radius:2px;
+}
+
+.button:hover{
+background-color: white;
+color: #4d4b4b;
+}
+
+.button:active{
+background-color: #4d4b4b;
+color: rgb(0, 0, 0);
+}
+
+input{
+border:none;
+border-bottom:2px solid #a15f1d;
+text-decoration:none;
+outline:none;
+}
+
+h2{
+font-family:verdana;
+font-weight:bold;
+}
+
+body{
+margin:0;
+background-color:#a99d98;
+padding:0;
+}
+
+/* Footer styles */
+
+footer {
+  z-index: 1;
+  background-color: #f0f0f0;
+  padding: 100px;
+  margin-top: 500px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30vh;
+  
+}
+
+
+.footer-content {
+    display: block;
+    position: relative;
+    top: 2%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-left: 500px;
+}
+
+.contact-info,
+.site-info {
+    flex: 1;
+    max-width: 3000px;
+    text-align: left;
+}
+
+.site-info img{
+  width: 50px; 
+  height: 50px;
+  transform: translate(12%, 30%);
+} 
+
+.contact-info h4,
+.site-info h4 {
+    margin-bottom: 20px;
+}
+
+/* Optional: Add styles for the copyright text */
+footer .copyright {
+    
+    text-align: center;
+    left: 5%;
+    top: 125%;
+    position: absolute
+}

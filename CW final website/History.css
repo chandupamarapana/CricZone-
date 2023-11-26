@@ -1,0 +1,122 @@
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  #his {
+ 
+    background-image: url(4.jpg);
+     
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+    margin-top: 120px;
+    
+  }
+  body {
+    background-color: #756e6e50; /* Light ash background color */
+    margin: 0; /* Remove default margin */
+    margin-top: -40px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+  }
+
+  .box-image {
+    width: 500px;
+    height: 300px;
+    background-image: url(5.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    z-index: 1;
+    border-top: 5px solid #000000; /* Top border color */
+      border-left: 5px solid #000000; /* Left border color */
+      padding: 5px; /* Space between the border and the image */
+  }
+
+  .text-content {
+    flex: 1;
+  }
+
+
+
+
+  .container3 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .text-content3{
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .box-image3 {
+    width: 500px;
+    height: 300px;
+    background-image: url(8.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    border-top: 5px solid #000000; 
+      border-left: 5px solid #000000; 
+      padding: 5px; 
+    
+  }
+
+
+
+  .container4 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+  }
+
+  .box-image4 {
+    width: 500px;
+    height: 300px;
+    background-image: url(9.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    z-index: 1;
+    border-top: 5px solid #000000; 
+      border-left: 5px solid #000000; 
+      padding: 5px; 
+    
+  }
+
+  .text-content4 {
+    flex: 1;
+  }
+
+
+  hr {
+    border: none;
+    height: 4px;
+    background-color: #000000; 
+    margin-top: 0px;
+  }
+
+  #studentDetails {
+    position: fixed;
+    bottom: 15px;
+    left: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    z-index: 2;
+}

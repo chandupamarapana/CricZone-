@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* header and font styling */
+
+h1 {
+    color: #000000; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50pt; 
+    font-weight: normal; 
+    line-height: 55px;   
+    text-align: center; 
+    padding: 4% 0 4% 0;
+    mix-blend-mode: multiply;
+  
+}
+
+h3 {
+    color: #000000; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 25pt; 
+    font-weight: normal; 
+    line-height: 55px;  
+    text-align: start; 
+    padding: 5% 0 0 5%;
+    mix-blend-mode: multiply;
+    text-align: center;
+  
+}
+
+h4 {
+    color: #000; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 15pt; 
+    font-weight: normal; 
+    line-height: 45px;   
+    text-align: start; 
+    mix-blend-mode: multiply;
+  
+}
+
+p {
+    /* color: #000;  */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 13pt; 
+    font-weight: thin; 
+    line-height: 30px;   
+    text-align: start; 
+    padding: 3% 0 0% 5%;
+    mix-blend-mode: multiply;
+    word-wrap: normal;
+    width: 90%;
+  
+}
+
+/* Main page and background image */
+
+.mainImage{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(images/cricket.jpg);
+    height: 100vh;
+    background-size: 100%;
+    background-position: 0px 0px 0px 0px;
+}
+
+/* About the main content page */
+
+.mainBox{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.mainBox .aboutBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:100%;
+}
+
+.mainBox .aboutBox .imageBox{
+    display: flex;
+    width: 100%;
+}
+
+.mainBox .aboutBox .imageBox img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.aboutBox .aboutBox .textBox{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    background-color: #e7e6e6;
+}
+
+/* go to top button */
+
+.goToTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6%;
+    background-color: #4d4b4b;
+    padding: 10px 10px;
+    font-size: 15pt;
+    margin: 7% 0 5% 5%;
+}
+
+.goToTop a{
+    font-family: 'Helvetica Neue', sans-serif;
+    text-decoration:none;
+    color: #ffffff;
+}
+
+.view{
+    text-align:center;
+    padding:8px;
+    margin-top: 5%;
+}
+
+/* additional info styling */
+
+.additionalInfo{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 0 4% 0;
+}
+
+.additionalInfo .categories{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width:70%;
+}
+
+.categories .row{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap:4%;
+}
+
+.categories .row .column{
+    display:flex;
+    box-shadow: 5px 3px 23px rgba(0,0,0,0.25);
+    transition: width 1s, height 1s;
+}
+
+.categories .row .column:hover{
+    box-shadow: 0 0 2px 1px #4d4b4b;
+    width: 340px;
+    height: 300px;
+}
+
+.categories .row .column img{
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px -20px;
+    background-color: #fff;
+    /* border-radius: 100%; */
+}
+
+figcaption{
+    text-align: center;
+    background-color: #4d4b4b;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
